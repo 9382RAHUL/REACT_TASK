@@ -1,38 +1,425 @@
-.App {
+/* FOR 1ST PAGE CSS CODE  */
+
+
+.main_login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.form_page {
+  width: 500px;
+  height: 225px;
+  box-shadow: 1px 1px 1px 1px rgb(23, 92, 194);
+
+}
+
+.login {
+
+  width: 500px;
+  height: 45px;
+  background-color: rgb(23, 92, 194);
+  text-align: center;
+  color: white;
+
+  margin-top: -15px;
+  /* margin-bottom: -16px; */
+  font-size: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  position: relative;
+  top: 8px;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgb(23, 92, 194);
+}
+
+.login_logo {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 23px;
+}
+
+.form_mid_section {
+  margin: 12.5px 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 500px;
+  height: 45px;
+  background-color: rgb(18, 83, 180);
+  text-align: center;
+
+}
+
+button {
+  margin-top: 8px;
+  padding: 5px 15px;
+  background-color: white;
+  color: black;
+}
+
+label {
+  color: rgb(11, 115, 152);
+}
+
+
+/* 2ND PAGE CSS CODE */
+
+.form_page2 {
+  width: 600px;
+  height: 225px;
+  box-shadow: 1px 1px 1px 1px rgb(23, 92, 194);
+
+}
+
+.page2_title {
+
+  width: 600px;
+  height: 45px;
+  background-color: rgb(23, 92, 194);
+  text-align: center;
+  color: white;
+
+  margin-top: -15px;
+
+  font-size: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page2_mid {
+
+  margin: 12.5px 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page2_mid_part {
+  display: flex;
+  margin: 0px 30px;
+}
+
+.btn_page2 {
+  margin-top: 8px;
+  padding: 3px 40px;
+  background-color: rgb(54, 213, 54);
+  color: white;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+}
+
+.btn2 {
+  width: 600px;
+  height: 45px;
+  background-color: rgb(18, 83, 180);
+}
+
+/* 3RD PAGE CSS CODE */
+
+.main_form_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form_section1 {
+  display: flex;
+  align-items: center;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 12px;
+
+}
+
+.button {
+  margin-top: 8px;
+  outline: none;
+  border: none;
+  padding: 10px 28px;
+  background-color: rgb(54, 213, 54);
+  color: white;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+}
+
+.instructions {
+  text-align: center;
+
+  height: 50px;
+  margin: 0 20px;
+  margin-bottom: 60px;
+  font-size: 12px;
+  background-color: rgb(237, 237, 100);
+}
+
+.desc {
+  position: relative;
+  top: 15px;
+}
+
+.main_login_page3 {
+
+  height: auto;
+  display: flex;
+  margin-top: 40px;
+
+  align-items: center;
+  flex-direction: column;
+
+}
+
+/* 4TH PAGE CSS CODE */
+.main_container_page4 {
+  width: 100%;
+  height: auto;
+
+}
+
+.main_container_page4_first {
+  width: 80%;
+  height: 80px;
+
+  background-color: rgb(23, 92, 194);
+  margin: 0 auto;
+}
+
+.main_container_page4_title {
+  width: 80%;
+  height: 30px;
+  /* margin-top: 30px; */
+  color: white;
+  font-size: 24px;
+
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_container_page4_btn>button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.page4_con_btn {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 100px;
+  background-color: chartreuse;
+}
+
+.page4_bottom {
+  height: 30px;
+  text-align: center;
+  background-color: rgb(246, 235, 91);
+  border-bottom: 1px solid black;
+  position: relative;
+  top: -15px;
+
+
+}
+
+.last_container_page4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last_container_page4_first {
+  display: flex;
+  align-items: center;
+}
+
+.last_container_page4_second {
+  margin-top: 8px;
+  outline: none;
+  border: none;
+  padding: 10px 28px;
+  background-color: rgb(54, 213, 54);
+  color: white;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+}
+
+/* 5th PAGE CSS CODE  */
+
+.main_container_page5 {
+  width: 100%;
+  height: auto;
+
+}
+
+.main_container_page5_first {
+  width: 80%;
+  height: auto;
+
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  margin-left: 130px;
+
+
+}
+
+.main_container_page5_title {
+  background-color: rgb(23, 92, 194);
+
+  width: 100%;
+  height: 40px;
+
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  top: 8px;
+
+
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  position: relative;
+  top: 34px;
+  right: 50px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th {
+  background-color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.last_container_page5 {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+}
+
+.last_container_page5_first {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  top: 20px;
+}
+
+.last_container_page5_second {
+  margin: 15px auto;
+  outline: none;
+  border: none;
+  width: 30%;
+  padding: 10px 28px;
+  background-color: rgb(54, 213, 54);
   color: white;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* 6th PAGE CSS CODE  */
+
+.main_container_page6 {
+  width: 100%;
+  height: auto;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_container_page6_first_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_container_page6_mid {
+  display: flex;
+
+  justify-content: center;
+}
+
+.main_container_page6_mid_partition>p {
+  margin: 0;
+}
+
+.main_container_page6_first {
+  width: 80%;
+  height: 70px;
+
+  background-color: rgb(23, 92, 194);
+  margin: 0 auto;
+}
+
+.main_container_page6_title {
+  width: 80%;
+  height: 30px;
+
+  color: white;
+  font-size: 24px;
+
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_container_page6_btn>button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.page6_con_btn {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 100px;
+  background-color: chartreuse;
+}
+
+.page6_bottom {
+  height: 30px;
+  text-align: center;
+  background-color: rgb(246, 235, 91);
+  border-bottom: 1px solid black;
+  position: relative;
+  top: -15px;
+
+
+}
+
+.last_container_page6 {
+  display: flex;
+  justify-content: center;
+}
+
+.last_container_page6_second {
+  margin-top: 8px;
+  outline: none;
+  border: none;
+  padding: 10px 28px;
+  background-color: rgb(54, 213, 54);
+  color: white;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
 }
